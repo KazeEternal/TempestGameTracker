@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{8934A2AE-3ACE-B6A9-406E-BB28E0CDA430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop", "Desktop\Desktop_vs2017.csproj", "{5E0A1A4E-037B-7C21-F2C5-C1BA0E2FB78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service_vs2017.csproj", "{EF471C18-79A3-82BE-756E-99C79DBD93EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E0A1A4E-037B-7C21-F2C5-C1BA0E2FB78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0A1A4E-037B-7C21-F2C5-C1BA0E2FB78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0A1A4E-037B-7C21-F2C5-C1BA0E2FB78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0A1A4E-037B-7C21-F2C5-C1BA0E2FB78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF471C18-79A3-82BE-756E-99C79DBD93EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF471C18-79A3-82BE-756E-99C79DBD93EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF471C18-79A3-82BE-756E-99C79DBD93EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF471C18-79A3-82BE-756E-99C79DBD93EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E0A1A4E-037B-7C21-F2C5-C1BA0E2FB78A} = {8934A2AE-3ACE-B6A9-406E-BB28E0CDA430}
+		{EF471C18-79A3-82BE-756E-99C79DBD93EB} = {8934A2AE-3ACE-B6A9-406E-BB28E0CDA430}
+	EndGlobalSection
+EndGlobal

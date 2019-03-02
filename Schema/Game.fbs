@@ -1,0 +1,12 @@
+//Test Class 
+include "Platform.fbs";
+
+namespace com.kylepeplow.gamestracker.data;
+
+table Game
+{
+	name:string;
+	systems:[Platform];
+	finished:bool = false;
+	complete:bool = false;
+}

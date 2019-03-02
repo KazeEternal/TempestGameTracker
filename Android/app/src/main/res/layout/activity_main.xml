@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/design_default_color_primary"
+        app:theme="@style/AppTheme.NoActionBar" >
+
+        <ImageButton
+            android:background="@drawable/scan_or_add_game"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="onScanClick"/>
+
+        <ImageButton
+
+            android:background="@drawable/search_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tempest"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ViewFlipper
+        android:id="@+id/mainViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="50dp">
+
+        <include
+            android:id="@+id/frontPageView"
+            layout="@layout/frontpage_layout_main"
+
+            android:layout_width="577dp"
+            android:layout_height="521dp" />
+
+        <include
+            android:id="@+id/statisticsView"
+            layout="@layout/statistics_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/codeReaderView"
+            layout="@layout/code_reader_main" />
+
+    </ViewFlipper>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:itemTextColor="@color/common_google_signin_btn_tint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/navigation">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</android.support.constraint.ConstraintLayout>

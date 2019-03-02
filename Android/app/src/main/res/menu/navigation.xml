@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <item
+        android:id="@+id/navigation_hardware"
+        android:icon="@drawable/hardware"
+        android:title="Hardware"/>
+
+    <item
+        android:id="@+id/navigation_software"
+        android:icon="@drawable/software"
+        android:title="Software"/>
+
+    <item
+        android:id="@+id/navigation_accomplishments"
+        android:icon="@drawable/accomplishment"
+        android:title="Accomplishments"/>
+
+    <item
+        android:id="@+id/navigation_accessories"
+        android:icon="@drawable/accessories"
+        android:title="Accessories"/>
+</menu>
