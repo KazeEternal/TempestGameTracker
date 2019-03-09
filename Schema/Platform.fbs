@@ -1,4 +1,4 @@
-namespace com.kylepeplow.gamestracker.data;
+namespace com.kylepeplow.gamestracker.transmission;
 
 enum Format:byte
 {

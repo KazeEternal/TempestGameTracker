@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" android:requiredFeature="true"/>
     <uses-permission android:name="android.permission.INTERNET" android:requiredFeature="true"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:requiredFeature="true"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:requiredFeature="true" />
 
     <uses-feature android:name="android.hardware.camera2" />

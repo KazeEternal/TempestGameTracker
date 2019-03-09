@@ -1,0 +1,4 @@
+Windows/.vs/
+*.csproj
+Windows/Desktop/obj/
+Windows/Service/obj/

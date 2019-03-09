@@ -8,7 +8,7 @@ set items
 for %%f in (Schema\*.fbs) do (
   set /p val=<%%f
   echo "%%f"
-  call ..\flatbuffers\Debug\flatc.exe -o Android\\app\\src\\main\\java --java "%%f"
+  call ..\flatbuffers\Debug\flatc.exe --gen-mutable -o Android\\app\\src\\main\\java --java "%%f"
 )
 
 pause

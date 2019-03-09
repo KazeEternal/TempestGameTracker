@@ -1,11 +1,12 @@
 //Test Class 
 include "Platform.fbs";
 
-namespace com.kylepeplow.gamestracker.data;
+namespace com.kylepeplow.gamestracker.transmission;
 
 table Game
 {
 	name:string;
+	code:ulong;
 	systems:[Platform];
 	finished:bool = false;
 	complete:bool = false;

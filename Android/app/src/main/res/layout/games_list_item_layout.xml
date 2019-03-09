@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/cover_icon"
+        android:icon="@drawable/software"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/gameNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Name"
+        android:layout_toRightOf="@id/cover_icon"
+         />
+    <TextView
+        android:id="@+id/barcodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bar Code"
+        android:layout_toRightOf="@id/cover_icon"
+        android:layout_below="@id/gameNameText"
+        />
+</RelativeLayout>
